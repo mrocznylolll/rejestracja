@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="0dp">
+<TextView
+    android:layout_width="match_parent"
+    android:text="Rejestruj konto"
+    android:textColor="@color/white"
+    android:textSize="30dp"
+    android:layout_height="50dp"
+    android:id = "@+id/title"
+    android:background="#008080"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "Podaj email:"/>
+    <EditText
+        android:id="@+id/tak1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:inputType="textEmailAddress"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "Podaj hasło:"/>
+    <EditText
+        android:id="@+id/tak2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:inputType="textPassword"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "Powtorz haslo:"/>
+    <EditText
+        android:id="@+id/tak3"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="zatwierdz" />
+    <TextView
+        android:text="Autor zel olivier"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_2"
+        android:gravity="center"/>
+
+</LinearLayout>
+
